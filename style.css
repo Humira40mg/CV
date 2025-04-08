@@ -1,0 +1,85 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+img{
+    display: block;
+    margin: 0 auto;
+    max-width: 200px;
+    width: 75%;
+    border: #2f402f solid 5px;
+    border-radius: 90%;
+    background-color: #2f402f;
+}
+
+ul{
+    list-style: none;
+    padding-left: 20px;
+    border-left: #2f402f solid 3px;
+    margin-left: 15px;
+}
+
+li {
+    text-indent: -10px;
+    margin: 5px 0;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: #2f402f;
+    border: #2f402f solid 5px;
+    padding: 1px 5px;
+    border-radius: 10px;
+}
+
+header {
+    display: inline-block; 
+    text-align: center;
+    margin: 0 30px;
+}
+
+header p{
+    margin-top: -20px;
+}
+
+.center {
+    text-align: center;
+}
+
+#blockdroit {
+    position: fixed;
+    right: 0;
+    top: 0;
+    height: 100vh;
+    background-color: #ccffcc;
+    padding: 20px;
+    width: 30%;
+    box-shadow: -2px 0 5px rgba(0,0,0,0.1);
+    border-left: #2f402f double 10px;
+    overflow-y: auto;
+}
+
+#blockgauche{
+    margin-right: 40%; /* espace pour le bloc de droite */
+}
+
+#blockgauche section {
+    margin: 0 30px;
+}
+
+#blockgauche section p {
+    margin: 0px 20px;
+}
+
+#blockgauche section:first-of-type {
+    border-top:#2f402f solid 3px;
+}
+
+#mail a{
+    color: #2f402f;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #ccffcc;
+    border:none;
+}
