@@ -1,2 +1,2 @@
 # CV
-Cet page web est mon CV
+Cette page web est mon CV
