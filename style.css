@@ -1,5 +1,11 @@
 body{
     font-family: 'Open Sans', sans-serif;
+    font-size: clamp(0.9rem, 1.9vw, 1.9rem);
+}
+
+body::selection {
+    background: #2f402f;
+    color: #fff;
 }
 
 img{
@@ -25,6 +31,7 @@ li {
 }
 
 a{
+    transition: background-color 0.3s ease, color 0.3s ease, border 0.3s ease;
     text-decoration: none;
     color: rgb(255, 255, 255);
     background-color: #2f402f;
@@ -40,7 +47,15 @@ header {
 }
 
 header p{
-    margin-top: -20px;
+    margin-top: 0;
+    padding-top: 0;
+
+}
+
+header h1{
+    margin-bottom: 0;
+    padding-bottom: 0;
+    font-size: clamp(2rem, 4vw, 4rem);
 }
 
 .center {
@@ -80,6 +95,27 @@ header p{
     color: #2f402f;
     text-decoration: none;
     font-weight: bold;
-    background-color: #ccffcc;
+    background-color: #fff;
     border:none;
+}
+
+h2:hover{
+    cursor: pointer;
+}
+
+section:hover h2{
+    transition: padding-left 0.3s ease;
+    padding-left: 5%;
+}
+
+section h2{
+    transition: padding-left 0.3s ease;
+    padding-left: 0;
+}
+
+a:hover{
+    transition: background-color 0.3s ease, color 0.3s ease, border 0.3s ease;
+    background-color: #FFF;
+    color: #2f402f;
+    padding: 3px 7px;
 }
