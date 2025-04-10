@@ -91,11 +91,11 @@ header h1{
     border-top:#2f402f solid 3px;
 }
 
-#mail a{
+section a{
     color: #2f402f;
     text-decoration: none;
     font-weight: bold;
-    background-color: #fff;
+    background: none;
     border:none;
 }
 
